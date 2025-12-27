@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Agency</title>
+    <meta name="description" content="Premium Web, App, LMS & AI Development with SEO Services.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">AGENCY</a>
+        <nav class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h2>Architecting Your Digital Future</h2>
+                    <p>We are a premier India-based IT consultancy delivering world-class Web, Mobile, and Software solutions to elevate your business globally.</p>
+                    <button onclick="scrollToSection('services')">Explore Our Solutions</button>
+                </div>
+                <div class="hero-video">
+                    <iframe width="560" height="315" src="https://youtu.be/s6j6yfxGLmg?si=uJysGTdlx8dxnHju" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="services-preview" style="padding-bottom: 20px;">
+            <div style="max-width: 900px; margin: auto; text-align: center;">
+                <h3 style="font-size: 2rem; color: #00f3ff; margin-bottom: 20px;">About Our Vision</h3>
+                <p style="font-size: 1.1rem; line-height: 1.6; color: #ccc;">
+                    We combine technical expertise with creative innovation to deliver robust IT services. From custom software development to strategic digital marketing and HR outsourcing, we are your partners in sustainable growth.
+                </p>
+            </div>
+        </section>
+
+        <section id="services" class="services-preview">
+            <h3 style="font-size: 2rem; margin-bottom: 30px; color: #fff;">Our Expertise</h3>
+            <div class="cards">
+                <div class="card">
+                    <img src="https://placehold.co/600x400?text=Web+Dev" alt="Website Development">
+                    <h4>Website Development</h4>
+                    <p>Crafting responsive, high-performance websites tailored to your brand identity.</p>
+                </div>
+                <div class="card">
+                    <img src="https://placehold.co/600x400?text=App+Dev" alt="App Development">
+                    <h4>App Development</h4>
+                    <p>Native and cross-platform mobile applications designed for user engagement.</p>
+                </div>
+                <div class="card">
+                    <img src="https://placehold.co/600x400?text=SEO" alt="SEO Service">
+                    <h4>SEO Service</h4>
+                    <p>Data-driven strategies to boost your online visibility and traffic.</p>
+                </div>
+                <div class="card">
+                    <img src="https://placehold.co/600x400?text=LMS" alt="LMS Development">
+                    <h4>LMS Development</h4>
+                    <p>Robust Learning Management Systems tailored for educational and corporate needs.</p>
+                </div>
+                <div class="card">
+                    <img src="https://placehold.co/600x400?text=AI+Agent" alt="AI Agent Development">
+                    <h4>AI Agent Development</h4>
+                    <p>Intelligent AI agents and automation solutions to enhance business efficiency.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing-section">
+            <h3>Transparent Pricing Plans</h3>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h4>Static Website</h4>
+                    <p style="color: #00f3ff; font-weight: bold; margin-bottom: 15px;">Essential Presence</p>
+                    <ul>
+                        <li>5 Custom Designed Pages</li>
+                        <li>Mobile Responsive Layout</li>
+                        <li>Contact Form Integration</li>
+                        <li>Social Media Linking</li>
+                        <li>Fast Loading Speed</li>
+                    </ul>
+                    <button style="padding: 10px 25px; background: #bc13fe; color: white; border: none; border-radius: 5px; cursor: pointer;">Choose Plan</button>
+                </div>
+                <div class="pricing-card">
+                    <h4>Dynamic Website</h4>
+                    <p style="color: #00f3ff; font-weight: bold; margin-bottom: 15px;">Business Growth</p>
+                    <ul>
+                        <li>Content Management System (CMS)</li>
+                        <li>Admin Dashboard Access</li>
+                        <li>Database Integration</li>
+                        <li>Blog/News Section</li>
+                        <li>Search Functionality</li>
+                    </ul>
+                    <button style="padding: 10px 25px; background: #bc13fe; color: white; border: none; border-radius: 5px; cursor: pointer;">Choose Plan</button>
+                </div>
+                <div class="pricing-card">
+                    <h4>E-commerce Website</h4>
+                    <p style="color: #00f3ff; font-weight: bold; margin-bottom: 15px;">Marketplace Elite</p>
+                    <ul>
+                        <li>Complete Product Catalog</li>
+                        <li>Secure Payment Gateway</li>
+                        <li>Shopping Cart & Checkout</li>
+                        <li>Order Management System</li>
+                        <li>User Accounts & History</li>
+                    </ul>
+                    <button style="padding: 10px 25px; background: #bc13fe; color: white; border: none; border-radius: 5px; cursor: pointer;">Choose Plan</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="booking" class="booking-section">
+            <h3>Book a Free Consultation</h3>
+            <p>Schedule a meeting with our experts to discuss your project requirements.</p>
+            <form class="booking-form">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your name" required>
+                
+                <label>Email Address</label>
+                <input type="email" placeholder="Enter your email" required>
+                
+                <label>Service Interested In</label>
+                <select required>
+                    <option value="" disabled selected>Select Service</option>
+                    <option value="web">Website Development</option>
+                    <option value="app">App Development</option>
+                    <option value="seo">SEO Services</option>
+                    <option value="lms">LMS Development</option>
+                    <option value="ai">AI Solutions</option>
+                </select>
+                
+                <label>Preferred Date</label>
+                <input type="date" required>
+                
+                <button type="submit">Book Appointment</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>About Us</h3>
+                <p>We provide top-tier digital solutions including Web, App, LMS, and AI development to help your business grow.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Info</h3>
+                <p>Email: contact@agency.com</p>
+                <p>Phone: +1 234 567 890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Digital Marketing Agency. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
